@@ -110,6 +110,8 @@ class robot:
 N = 1000
 p = []
 
-#enter code here
-
-print len(p)
+for i in range(N):
+    x = robot()
+    p.append(x)
+print(len(p))
+print p
