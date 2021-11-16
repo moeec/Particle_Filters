@@ -110,6 +110,11 @@ for i in range(N):
     x = robot()
     p.append(x)
 
+p2 = []
+for i in range(N):
+    p2.append(p[i].move(0.1, 5.0))
+p = p2
+
 print p #PLEASE LEAVE THIS HERE FOR GRADING PURPOSES
 
 
